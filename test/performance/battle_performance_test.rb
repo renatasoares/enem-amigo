@@ -3,8 +3,12 @@ require 'rails/performance_test_help'
  
 class BattleModelTest < ActionDispatch::PerformanceTest
 
+	def setup
+		@user = users(:renata)
+	end
+
   def test_battle_creation
-    Battle.create(player_2: users(:renata))
+    Battle.create(player_1: @user)
   end
 
   def test_battle_generate_questions
