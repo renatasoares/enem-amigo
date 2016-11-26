@@ -21,7 +21,8 @@ class StaticPagePerfomanceTest < ActionDispatch::PerformanceTest
 	end
 
 	def test_home
-		get :home
+    log_in @user
+		get '/'
 	end
 
 end
