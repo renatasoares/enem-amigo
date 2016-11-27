@@ -1,7 +1,7 @@
 require 'test_helper'
 require 'rails/performance_test_help'
 
-class MedalModelTest < ActionDispatch::PerformanceTest
+class UserModelTest < ActionDispatch::PerformanceTest
   def setup
     @user = users(:renata)
   end

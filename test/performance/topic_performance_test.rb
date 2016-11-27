@@ -1,8 +1,8 @@
 require 'test_helper'
 require 'rails/performance_test_help'
 
-class MedalModelTest < ActionDispatch::PerformanceTest
-  def test_creation_question
+class TopicModelTest < ActionDispatch::PerformanceTest
+  def test_creation_topic
     Topic.create
   end
 end

@@ -1,7 +1,7 @@
 require 'test_helper'
 require 'rails/performance_test_help'
 
-class MedalModelTest < ActionDispatch::PerformanceTest
+class QuestionModelTest < ActionDispatch::PerformanceTest
   def setup
     @question = questions(:question_01)
   end
